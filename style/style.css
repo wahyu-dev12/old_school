@@ -90,6 +90,7 @@ body{
     text-align: center;
 }
 
+
 li{
     list-style-type: none;
     float: left;
@@ -98,4 +99,5 @@ li{
 }
 li img{
     border-radius: 10px;
+    width: 200px;
 }
