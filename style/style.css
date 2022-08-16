@@ -23,10 +23,12 @@ body{
     background-color: #76549A;
     color: #FCF8E8;
 }
+/* Top Bar */
 .nav-top{
     width: 100%;
     height: 70px;
     display: flex;
+    z-index: 1;
 }
 .nav-top .content{
     margin: auto 3%;
@@ -48,18 +50,41 @@ body{
 .left-content p{
     display: inline;
     margin: auto;
+    font-size: 18pt;
 }
 .right-content{
     float: right;
+}
+.right-content .img-cover{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .right-content img{
     width: 50px;
     height: 50px;
     align-self: center;
 }
+/* Sidebar */
+.nav-side{
+    height: calc(100% - 70px);
+    top: 70px;
+    width: 20%;
+    max-width: 200px;
+    min-width: 100px;
+    background-color: #ae97c6;
+}
 
 .container{
     margin-top: 80px;
+    position: absolute;
+    float: right;
+    width: 80%;
+    right: 0;
+    min-width: calc(100% - 200px);
+    max-width: calc(100% - 100px);
 }
 .judul{
     text-align: center;
