@@ -101,3 +101,13 @@ li img{
     border-radius: 10px;
     width: 200px;
 }
+
+footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 900px;
+    padding: 3px;
+    background-color: #DF7861;
+    color: white;
+}
