@@ -89,23 +89,36 @@ body{
 .judul{
     text-align: center;
 }
-
+.item{
+    position: static;
+}
 li{
     list-style-type: none;
     float: left;
-    padding-left: 55px;
-    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto auto;
+    margin-right: 30px;
+    background-color: #94B49F;
+    border-style: groove;
+    border-radius: 10%;
 }
 li img{
+    margin-top: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
     width: 200px;
+    height: 150px;
 }
-
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 footer{
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 900px;
+    margin-top: 1100px;
     padding: 3px;
     background-color: #DF7861;
     color: white;
