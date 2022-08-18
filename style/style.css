@@ -1,125 +1,156 @@
 /* Ini List color theme yang digunakan */
 /* NB : Ini temporary saja. Biar mudah cari tahu warna
 apa dari kodenya. Jangan ada yang menggunakan selector ini. */
-list-color{
-    text-align: center;
-    list-color: #FCF8E8
-    #94B49F
-    #DF7861
-    #76549A;
+list-color {
+  text-align: center;
+  list-color: #fcf8e8 #94b49f #df7861 #76549a;
 }
 /* ------------------------------------ */
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #FCF8E8;
-    color: #000;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fcf8e8;
+  color: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #76549A;
-    color: #FCF8E8;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #76549a;
+  color: #fcf8e8;
+  width: 100%;
+  z-index: 10;
 }
 /* Top Bar */
-.nav-top{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    z-index: 1;
+.nav-top {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  z-index: 1;
 }
-.nav-top .content{
-    margin: auto 3%;
-    width: 100%;
-    display: flex;
+.nav-top .content {
+  margin: auto 3%;
+  width: 100%;
+  display: flex;
 }
-.left-content{
-    float: left;
-    display: flex;
-    margin: auto auto auto 0;
+.left-content {
+  float: left;
+  display: flex;
+  margin: auto auto auto 0;
 }
-.left-content img{
-    width: 50px;
-    height: 50px;
-    margin-right: 30px;
-    align-self: center;
-    display: inline-flex;
+.left-content img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  align-self: center;
+  display: inline-flex;
 }
-.left-content p{
-    display: inline;
-    margin: auto;
-    font-size: 18pt;
+.left-content p {
+  display: inline;
+  margin: auto;
+  font-size: 18pt;
 }
-.right-content{
-    float: right;
+.right-content {
+  float: right;
 }
-.right-content .img-cover{
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border-radius: 50%;
-    overflow: hidden;
+.right-content .img-cover {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.right-content img{
-    width: 50px;
-    height: 50px;
-    align-self: center;
-}
-/* Sidebar */
-.nav-side{
-    height: calc(100% - 70px);
-    top: 70px;
-    width: 20%;
-    max-width: 200px;
-    min-width: 100px;
-    background-color: #ae97c6;
+.right-content img {
+  width: 50px;
+  height: 50px;
+  align-self: center;
 }
 
-.container{
-    margin-top: 80px;
-    position: absolute;
-    float: right;
-    width: 80%;
-    right: 0;
-    min-width: calc(100% - 200px);
-    max-width: calc(100% - 100px);
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.judul{
-    text-align: center;
+/* Sidebar */
+.sidebar {
+  background-color: #76549a;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  position: absolute;
 }
-.item{
-    position: static;
+
+/* item */
+.container {
+  position: absolute;
+  width: 75%;
+  right: 0;
+  overflow: scroll;
+  height: 80%;
 }
-li{
-    list-style-type: none;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px auto auto;
-    margin-right: 30px;
-    background-color: #94B49F;
-    border-style: groove;
-    border-radius: 10%;
+.judul {
+  margin-top: 70px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
 }
-li img{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    width: 200px;
-    height: 150px;
+.item {
+  margin-top: 150px;
+  position: absolute;
+  width: 100%;
 }
-.text{
-    margin-top: 20px;
-    margin-bottom: 20px;
+li {
+  list-style-type: none;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px auto auto;
+  margin-right: 30px;
+  background-color: #94b49f;
+  border-style: groove;
+  border-radius: 10%;
 }
-footer{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: 1100px;
-    padding: 3px;
-    background-color: #DF7861;
-    color: white;
+li img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+}
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: start;
+  background-color: #df7861;
+  color: white;
+  bottom: 0;
+  font-size: 11px;
+  font-weight: lighter;
+  height: 100px;
+  display: flex;
+}
+
+.col {
+  position: relative;
+  left: 0;
+  margin-left: 20px;
+  width: 20%;
+  height: 20px;
+}
+
+.col image {
+  border-top: 2px;
+}
+.col button {
+  background-color: cadetblue;
+  border: none;
+  margin-left: 10px;
 }
