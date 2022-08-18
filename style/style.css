@@ -85,9 +85,21 @@ body{
     right: 0;
     min-width: calc(100% - 200px);
     max-width: calc(100% - 100px);
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+.container .inner-contain{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .judul{
-    text-align: center;
+    text-align: left;
+    font-size: 18pt;
+}
+.judul p{
+    margin: unset;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 li{
@@ -106,7 +118,7 @@ footer{
     width: 100%;
     text-align: center;
     margin-top: 900px;
-    padding: 3px;
     background-color: #DF7861;
     color: white;
+    bottom: 0;
 }
