@@ -202,23 +202,23 @@ footer {
     text-align: start;
     background-color: #df7861;
     color: white;
-    bottom: 0;
+    /* bottom: 0; */
     font-size: 14px;
     font-weight: lighter;
     height: max-content;
-    display: flex;
-    padding: 0 7%;
+    display: block;
+    padding: 0 10%;
 }
-  
+    
 .col {    
-    position: relative;
+    /* position: relative; */
+    display: inline-block;
     margin-left: 5%;
-    width: 20%;
-    display: inline;
+    width: 18%;
 }
 
 .col.link{
-    padding-top: 13px;
+    padding-top: 1.5%;
 }
 
 .col.link a{
@@ -229,12 +229,21 @@ footer {
     line-height: 20px;
 }
 
+.col.copyright{
+    top: 0;
+}
+
 .col img {
     border-top: 2px;
+}
+.col button {
+    background-color: cadetblue;
+    border: none;
+    margin-left: 10px;
 }
 
 .logo{
     width: 60px;
     height: 20px;
-    background-color: #0D28A6 ;
+    background-color: #0D28A6;
 }
