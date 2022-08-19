@@ -1,0 +1,15 @@
+tugas:
+kelompok 1 : membuat layouting web dengan old schol
+kelompok 2 : membuat website web dengan flexbox
+kelompok 3 : membuat website web dengan grid
+
+nama kelompok : 
+klp1 : 
+1. 
+
+
+tema warna:
+- FCF8E8
+- 94B49F
+- DF7861
+- 76549A

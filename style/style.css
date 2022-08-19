@@ -1,0 +1,235 @@
+/* Ini List color theme yang digunakan */
+/* NB : Ini temporary saja. Biar mudah cari tahu warna
+apa dari kodenya. Jangan ada yang menggunakan selector ini. */
+list-color{
+    text-align: center;
+    list-color: #FCF8E8
+    #94B49F
+    #DF7861
+    #76549A;
+}
+/* ------------------------------------ */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FCF8E8;
+    color: #000;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #76549A;
+    color: #FCF8E8;
+}
+/* Top Bar */
+.nav-top{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    z-index: 1;
+}
+.nav-top .content{
+    margin: auto 3%;
+    width: 100%;
+    display: flex;
+}
+.left-content{
+    float: left;
+    display: flex;
+    margin: auto auto auto 0;
+}
+.left-content img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    align-self: center;
+    display: inline-flex;
+}
+.left-content p{
+    display: inline;
+    margin: auto;
+    font-size: 18pt;
+}
+.right-content{
+    float: right;
+}
+.right-content .img-cover{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.right-content img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+/* Sidebar */
+.nav-side{
+    height: calc(100% - 70px);
+    top: 70px;
+    width: 20%;
+    max-width: 200px;
+    min-width: 100px;
+    background-color: #ae97c6;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar p{
+    text-decoration: none;
+    border: solid;
+    border-radius: 5%;
+    padding: 5%;
+    margin: 5%;
+    background-color: #94B49F;
+}
+
+/* containt */
+.main{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .container{
+    /* margin-top: 80px;
+    position: absolute; */
+    /* float: right; */
+    margin-left: auto;
+    width: 80%;
+    /* right: 0; */
+    min-width: calc(100% - 200px);
+    max-width: calc(100% - 100px);
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-bottom: 100px;
+}
+.container .inner-contain{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.judul{
+    text-align: left;
+    font-size: 18pt;
+    color: #8b8b8b;
+}
+.judul hr{
+    height: 0.3px;
+    border: 0px;
+    background-color: #8b8b8b;
+}
+.judul p{
+    margin: unset;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.item{
+    /* position: static; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: center;
+}
+.box-item{
+    /* list-style-type: none;
+    float: left; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* margin: 20px auto auto;
+    margin-right: 30px; */
+    /* background-color: #94B49F; */
+    /* border-style: groove; */
+    padding: 20px;
+    /* border-radius: 10%; */
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-width: 197px;
+}
+.box-item .inner-box{
+    background-color: #94B49F;
+    border-radius: 6%;
+    border: 1px solid #605959;
+    overflow: hidden;
+}
+.box-item img{
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px;
+    border-radius: 10px; */
+    width: 100%;
+    /* height: 150px; */
+}
+.text{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 0px 20px;
+    text-align: left;
+}
+/* footer{
+    /* position: absolute; */
+
+    /* width: 100%;
+    text-align: center;
+    margin-top: 40px; */
+
+    /* margin-top: 1100px; */
+    /* padding: 3px; */
+
+    /* background-color: #DF7861;
+    color: white; */
+
+    /* bottom: 0; */
+
+    /* display: block;
+    z-index: 1;
+    height: 100%; }*/
+
+footer {
+    position: relative;
+    justify-content: center;
+    text-align: start;
+    background-color: #df7861;
+    color: white;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: lighter;
+    height: max-content;
+    display: flex;
+    padding: 0 7%;
+}
+  
+.col {    
+    position: relative;
+    margin-left: 5%;
+    width: 20%;
+    display: inline;
+}
+
+.col.link{
+    padding-top: 13px;
+}
+
+.col.link a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000 ;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.col img {
+    border-top: 2px;
+}
+
+.logo{
+    width: 60px;
+    height: 20px;
+    background-color: #0D28A6 ;
+}
