@@ -77,6 +77,22 @@ body{
     background-color: #ae97c6;
 }
 
+.navbar {
+    text-align: center;
+}
+
+.navbar p{
+    text-decoration: none;
+    border: solid;
+    border: 10 10 10 10;
+    border-color: #000;
+    border-radius: 5%;
+    padding: 5%;
+    margin: 5%;
+    background-color: #94B49F;
+}
+
+/* containt */
 .main{
     padding-top: 80px;
     display: flex;
