@@ -81,6 +81,11 @@ body{
     text-align: center;
 }
 
+.navbar a{
+    text-decoration: none;
+    color:#FCF8E8;
+}
+
 .navbar p{
     text-decoration: none;
     border: solid;
