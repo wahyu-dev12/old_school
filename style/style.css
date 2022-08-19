@@ -84,8 +84,6 @@ body{
 .navbar p{
     text-decoration: none;
     border: solid;
-    border: 10 10 10 10;
-    border-color: #000;
     border-radius: 5%;
     padding: 5%;
     margin: 5%;
